@@ -1,0 +1,13 @@
+class Student2{
+int id;
+String name;
+int age;
+Student2(int i,String n){
+id=i;
+name=n;age=0;
+}
+Student2(int i,String n,int a){
+id=j;
+name=n;
+age=a;
+}
