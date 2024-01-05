@@ -1,12 +1,10 @@
-class A{
-A(){System.out.println("hello a from default constructor");}
-A(int x){
-this();
-System.out.println(x);
+class Test{
+static int data=30;
+static class Inner{
+static void msg(){System.out.println("data is" + data);}
 }
-}
-class TestThis5{
 public static void main(String args[]){
-A a=new A(10);
+Test.Inner obj=new Test.Inner();
+obj.msg();
 }
 }
