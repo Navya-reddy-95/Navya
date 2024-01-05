@@ -11,6 +11,5 @@ if((str.charAt(i)=='a')||(str.charAt(i)=='e')||(str.charAt(i)=='i')||(str.charAt
 count++;
 }
 }
-System.out.println(count);
 }
 }
