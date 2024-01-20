@@ -1,10 +1,11 @@
+//import mypack.*;
+import mypack.A;
+import mypack.A1;
 class Test{
-static int data=30;
-static class Inner{
-static void msg(){System.out.println("data is" + data);}
-}
 public static void main(String args[]){
-Test.Inner obj=new Test.Inner();
-obj.msg();
+A obj1=new A();
+obj1.msg();  obj1.msgA();
+A1 obj2=new A1();
+obj2.msg1();  obj2.msgA1();
 }
 }
